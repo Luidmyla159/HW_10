@@ -1,0 +1,58 @@
+    1  git config --global user.name "Lyidmyla"
+    2  git config --global user.email "l.surygina@gmail.com"
+    3  git clone [200~https://github.com/Luidmyla159/HW_10.git~
+    4  git clone https://github.com/Luidmyla159/HW_10.git
+    5  [200~touch text_ignore.txt
+    6  touch text_ignore.txt
+    7  nano .gitignore
+    8  git status
+    9  [200~text_ignore.txt
+   10  text_ignore.txt
+   11  nano .gitignore
+   12  git status
+   13  nano .gitignore
+   14  git status
+   15  git add
+   16  git add .
+   17  touch text_ignore.txt
+   18  nano .gitignore
+   19  git status
+   20  git add .
+   21  git add
+   22  git commit -m "Added text_ignore.txt to .gitignore"
+   23  git status
+   24  touch main_test.txt
+   25  cd /c/Users/HP/Desktop/REPZITORI
+   26  cd /c/Users/HP/Desktop/REPZITORI
+   27  cd /c/Users/HP/Desktop/REPZITORI
+   28  cd /c/Users/HP/Desktop/lui159
+   29  git status
+   30  [200~
+   31  git status
+   32  cd /HW_10
+   33  cd HW_10
+   34  git status
+   35  touch New.txt
+   36  git status
+   37  git add New.txt
+   38  git status
+   39  git commit -m "New file created"
+   40  git checkout -b develop
+   41  touch develop_test.txt
+   42  git add
+   43  git add .
+   44  git commit -m "Added file develop_test.txt"
+   45  echo "just a small change" >> develop_test.txt
+   46  git status
+   47  git add .
+   48  git commit -m "Updated develop_test.txt with a small change"
+   49  git log --oneline
+   50  git branch
+   51  git checkout main
+   52  git merge develop
+   53  git add .
+   54  git commit
+   55  git log --oneline
+   56  git branch
+   57  git status
+   58  history > command_list.csv
